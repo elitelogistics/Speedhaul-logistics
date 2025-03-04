@@ -1,0 +1,77 @@
+/* Reset styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+.hero input {
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Services Section */
+.services {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.service-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    display: inline-block;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
